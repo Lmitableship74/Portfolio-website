@@ -1,0 +1,326 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #292c35;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #00ffaa;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info ul {
+    list-style: none;
+    margin-left: 1
+} */
+/*
+Bard new code */
+
+
+/* body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #094a83;
+}
+
+header {
+  background-color: #293455;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #430a6a;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+    color: #5e26d7;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+    color: #00ffaa;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.contact-info
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+
+.contact-form
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  form {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: block;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #000;
+    color: #fff;
+  }
+
+  button:hover {
+    background-color: #333;
+  } */
+
+/*
+  Gpt new code */
+
+
+  /* Set default font and background styles for the whole page */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #094a83;
+}
+
+/* Style the header section with a dark blue background and padding */
+header {
+  background-color: #293455;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #095ea9;
+}
+
+/* Define the base styles for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  text-align:center;
+}
+
+/* Define the navigation menu styles */
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 10px 2px 3px;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  display: inline-block;
+  color: #0a5da5;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.2s ease-in-out;
+  margin-left: 1.5rem;
+}
+
+nav a:hover {
+  color: #00ffaa;
+}
+
+/* Define the main content section with padding */
+main {
+  padding: 20px;
+}
+
+/* Define the base styles for section headings */
+section {
+  margin-bottom: 20px;
+}
+
+/* Define the styles for the contact information section */
+.contact-info {
+  margin-bottom: 40px;
+    color: rgb(7, 136, 93);
+}
+
+.contact-info h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align:center;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  padding: 0px 4px 5px 7px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.contact-info a {
+    color: wheat;
+    text-align: end;
+}
+
+/* Define the styles for the contact form section */
+.contact-form h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: wheat;
+}
+
+.contact-form form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color:khaki;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #333;
+}
